@@ -1,0 +1,46 @@
+<html>
+  <head>
+    <script type="module" src="/progress-card.js"></script>
+  </head>
+  <style>
+    body {
+        padding: 10px;
+    }
+    body progress-card {
+        padding: 20px;
+    }
+  </style>
+  <body>
+    <h1>Progress Card with mutliple variants</h1>
+    <pre><progress-card
+        title="Growth Value"
+        percentage="5"
+        userName="John Dec"
+        color="#e067e4"
+        subTitle="3 key results"
+      ></progress-card></pre>
+    <progress-card
+      title="Growth Value"
+      percentage="5"
+      userName="John Dec"
+      color="#e067e4"
+      subTitle="3 key results"
+    ></progress-card>
+    <progress-card
+      title="Sass Industry - 2040"
+      percentage="100"
+      type="medium"
+      color="#e067e4"
+      userName="John Dec"
+    ></progress-card>
+    <progress-card
+      title="IT sector"
+      subTitle="3 key results"
+      color="#e067e4"
+      percentage="33"
+      type="relaxed"
+      userName="Alex volta"
+      userUrl="https://cdn.iconscout.com/icon/free/png-256/free-laptop-user-1-1179329.png"
+    ></progress-card>
+  </body>
+</html>

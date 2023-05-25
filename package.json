@@ -1,0 +1,35 @@
+{
+  "name": "Progress Card",
+  "version": "1.0.0",
+  "description": "A webcomponent to display a progress car ui with multiple variants",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "dependencies": {
+    "lit": "^2.0.0"
+  },
+  "devDependencies": {
+    "vite": "^2.6.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/reachoutanandgopinath/progress-card.git"
+  },
+  "keywords": [
+    "progress",
+    "card",
+    "progress-card",
+    "web",
+    "component"
+  ],
+  "author": "Anand N.G",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/reachoutanandgopinath/progress-card/issues"
+  },
+  "homepage": "https://github.com/reachoutanandgopinath/progress-card#readme"
+}
