@@ -1,6 +1,6 @@
 # progress-card
 
- This web component helps you to create a custom UI component called <progress-card>
+ This web component helps you to create a custom UI component like below.
 
   It has 3 types - Compact, Medium and Relaxed. The UI will be displayed by passing repsective parameters.
 
