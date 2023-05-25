@@ -1,10 +1,19 @@
 # progress-card
 
- This web component helps you to create a custom UI component like below.
+ This web component (highly experimental) helps you to create a custom UI component like below.
 
   It has 3 types - Compact, Medium and Relaxed. The UI will be displayed by passing repsective parameters.
 
+# How UI looks
+
 <img width="303" alt="Screenshot 2023-05-14 at 5 17 50 PM" src="https://github.com/reachoutanandgopinath/ember-progress-card/assets/122727376/a8fc85e0-60a3-4866-8934-d1c4efbad365">
+
+# Usage
+
+Include the below script and invoke the respective card type.
+<script type="module" src="https://unpkg.com/progress-card"></script>
+
+<progress-card @title="Growth Value" @percentage="5" @userName="John Dec" @color="#c823ee" @subTitle="3 key results"></progress-card>
 
 
 Ex:
