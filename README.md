@@ -11,9 +11,11 @@
 # Usage
 
 Include the below script and invoke the respective card type.
-<script type="module" src="https://unpkg.com/progress-card"></script>
 
-<progress-card @title="Growth Value" @percentage="5" @userName="John Dec" @color="#c823ee" @subTitle="3 key results"></progress-card>
+
+    <script type="module" src="https://unpkg.com/progress-card"></script>
+
+    <progress-card @title="Growth Value" @percentage="5" @userName="John Dec" @color="#c823ee" @subTitle="3 key results"></progress-card>
 
 
 Ex:

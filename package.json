@@ -1,7 +1,7 @@
 {
-  "name": "Progress Card",
+  "name": "progress-card",
   "version": "1.0.0",
-  "description": "A webcomponent to display a progress car ui with multiple variants",
+  "description": "A webcomponent to display a progress card ui with multiple variants",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
