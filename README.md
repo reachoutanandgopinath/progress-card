@@ -13,7 +13,7 @@
 Include the below script and invoke the respective card type.
 
 
-    <script type="module" src="https://unpkg.com/progress-card"></script>
+    <script type="module" src="https://unpkg.com/progress-card@1.0.0/progress-card.js?module"></script>
 
     <progress-card @title="Growth Value" @percentage="5" @userName="John Dec" @color="#c823ee" @subTitle="3 key results"></progress-card>
 
@@ -36,3 +36,7 @@ Ex:
 Parameters allowed:
 
     @title, @subTitle, @color, @percentage (Designed to show percentage only), @type, @userName, @userUrl (User's thumbnail)
+
+# Demo
+
+ https://jsfiddle.net/anandi2i/mrjx94v2/7/
