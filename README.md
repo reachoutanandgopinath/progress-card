@@ -40,3 +40,18 @@ Parameters allowed:
 # Demo
 
  https://jsfiddle.net/anandi2i/mrjx94v2/7/
+
+
+# Development
+
+ Check out this repository, then run:
+ 
+    cd progress-card
+    npm install
+
+
+Then to start a local development server (using Vite):
+
+    npm run dev
+    
+    Then visit http://localhost:3000/
